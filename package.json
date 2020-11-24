@@ -1,0 +1,30 @@
+{
+  "name": "taiko",
+  "version": "1.0.0",
+  "description": "Sample template to start project that uses taiko with mocha runner",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/test.js --timeout 30000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getgauge-examples/mocha-taiko.git"
+  },
+  "keywords": [
+    "taiko",
+    "mocha"
+  ],
+  "author": "getgague",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/getgauge-examples/mocha-taiko/issues"
+  },
+  "homepage": "https://github.com/getgauge-examples/mocha-taiko#readme",
+  "dependencies": {
+    "execution-time": "^1.4.1",
+    "log4js": "^6.3.0",
+    "mocha": "^8.2.1",
+    "simple-node-logger": "^18.12.24",
+    "taiko": "^0.7.1"
+  }
+}
